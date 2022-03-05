@@ -1,0 +1,33 @@
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Webhook Poster</title>
+  <meta name="description" content="Webhook Poster">
+  <meta name="author" content="Rekondo">
+
+  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Roboto:300,300italic,700,700italic">
+  <link rel="stylesheet" href="//cdn.rawgit.com/necolas/normalize.css/master/normalize.css">
+  <link rel="stylesheet" href="//cdn.rawgit.com/milligram/milligram/master/dist/milligram.min.css"> 
+
+  <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+  <script src="index.js"></script>
+</head>
+<body>
+  <div class="container">
+    <h1>Webhook Poster</h1>
+    <div class="row">
+      <div>
+        <label>Link to webhook</label>
+        <input id="url"><br>
+        <label>JSON</label>
+        <textarea id="data" rows="4" cols="50"></textarea>
+        <button onclick="submit()">Send</button>
+      </div>
+    </div>
+    <div class="row">
+      <div id="result">
+      </div>
+    </div>
+  </div>
+</body>
+</html>

@@ -1,0 +1,14 @@
+{
+  "name": "webhooksender",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "cls && title Webhooker && node index.js"
+  },
+  "author": "Rekondo",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}
